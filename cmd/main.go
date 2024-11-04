@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	wp := workerpool.NewPool(1)
+	wp := pool.NewPool(1)
 	wp.RemoveWorker()              
 	fmt.Println(wp.RemoveWorker()) 
 
